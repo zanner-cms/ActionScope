@@ -6,8 +6,6 @@
 const Action = require('zanner-cms-action').Action;
 const Scope = require('zanner-cms-scope').Scope;
 
-const AsyncFunction = require('./AsyncFunction').AsyncFunction;
-
 
 class ActionScope extends Scope {
 

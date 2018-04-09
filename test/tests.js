@@ -17,16 +17,7 @@ const util = require('util');
 const Action = require('zanner-cms-action').Action;
 
 const ActionScope = require('../ActionScope').ActionScope;
-const AsyncFunction = require('../AsyncFunction').AsyncFunction;
 
-
-describe('AsyncFunction', () => {
-
-	it('is async function class', () => {
-		expect(async function () {}).to.be.instanceof(AsyncFunction);
-	});
-
-});
 
 describe('ActionScope', () => {
 
